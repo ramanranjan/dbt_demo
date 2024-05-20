@@ -1,0 +1,1532 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\RRanjan>python --versoin
+unknown option --versoin
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+C:\Users\RRanjan>python --version
+Python 3.10.0
+
+C:\Users\RRanjan>pip install poetry
+Collecting poetry
+  Downloading poetry-1.8.3-py3-none-any.whl (249 kB)
+     |████████████████████████████████| 249 kB 6.8 MB/s
+Collecting requests-toolbelt<2.0.0,>=1.0.0
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 1.3 MB/s
+Collecting packaging>=23.1
+  Downloading packaging-24.0-py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 857 kB/s
+Collecting cachecontrol[filecache]<0.15.0,>=0.14.0
+  Downloading cachecontrol-0.14.0-py3-none-any.whl (22 kB)
+Collecting poetry-core==1.9.0
+  Downloading poetry_core-1.9.0-py3-none-any.whl (309 kB)
+     |████████████████████████████████| 309 kB ...
+Collecting cleo<3.0.0,>=2.1.0
+  Downloading cleo-2.1.0-py3-none-any.whl (78 kB)
+     |████████████████████████████████| 78 kB 3.7 MB/s
+Collecting keyring<25.0.0,>=24.0.0
+  Downloading keyring-24.3.1-py3-none-any.whl (38 kB)
+Collecting tomlkit<1.0.0,>=0.11.4
+  Downloading tomlkit-0.12.5-py3-none-any.whl (37 kB)
+Collecting build<2.0.0,>=1.0.3
+  Downloading build-1.2.1-py3-none-any.whl (21 kB)
+Collecting fastjsonschema<3.0.0,>=2.18.0
+  Downloading fastjsonschema-2.19.1-py3-none-any.whl (23 kB)
+Collecting pexpect<5.0.0,>=4.7.0
+  Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 1.0 MB/s
+Collecting shellingham<2.0,>=1.5
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting tomli<3.0.0,>=2.0.1
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting crashtest<0.5.0,>=0.4.1
+  Downloading crashtest-0.4.1-py3-none-any.whl (7.6 kB)
+Collecting pkginfo<2.0,>=1.10
+  Downloading pkginfo-1.10.0-py3-none-any.whl (30 kB)
+Collecting platformdirs<5,>=3.0.0
+  Downloading platformdirs-4.2.1-py3-none-any.whl (17 kB)
+Collecting pyproject-hooks<2.0.0,>=1.0.0
+  Downloading pyproject_hooks-1.1.0-py3-none-any.whl (9.2 kB)
+Collecting trove-classifiers>=2022.5.19
+  Downloading trove_classifiers-2024.4.10-py3-none-any.whl (13 kB)
+Collecting virtualenv<21.0.0,>=20.23.0
+  Downloading virtualenv-20.26.2-py3-none-any.whl (3.9 MB)
+     |████████████████████████████████| 3.9 MB 6.4 MB/s
+Collecting dulwich<0.22.0,>=0.21.2
+  Downloading dulwich-0.21.7-cp310-cp310-win_amd64.whl (487 kB)
+     |████████████████████████████████| 487 kB 6.4 MB/s
+Collecting installer<0.8.0,>=0.7.0
+  Downloading installer-0.7.0-py3-none-any.whl (453 kB)
+     |████████████████████████████████| 453 kB 6.4 MB/s
+Collecting requests<3.0,>=2.26
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     |████████████████████████████████| 62 kB 248 kB/s
+Collecting poetry-plugin-export<2.0.0,>=1.6.0
+  Downloading poetry_plugin_export-1.8.0-py3-none-any.whl (10 kB)
+Collecting importlib-metadata>=4.6
+  Downloading importlib_metadata-7.1.0-py3-none-any.whl (24 kB)
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting msgpack<2.0.0,>=0.5.2
+  Downloading msgpack-1.0.8-cp310-cp310-win_amd64.whl (75 kB)
+     |████████████████████████████████| 75 kB 1.3 MB/s
+Collecting filelock>=3.8.0
+  Downloading filelock-3.14.0-py3-none-any.whl (12 kB)
+Collecting rapidfuzz<4.0.0,>=3.0.0
+  Downloading rapidfuzz-3.9.0-cp310-cp310-win_amd64.whl (1.7 MB)
+     |████████████████████████████████| 1.7 MB ...
+Collecting urllib3>=1.25
+  Downloading urllib3-2.2.1-py3-none-any.whl (121 kB)
+     |████████████████████████████████| 121 kB ...
+Collecting zipp>=0.5
+  Downloading zipp-3.18.1-py3-none-any.whl (8.2 kB)
+Collecting jaraco.classes
+  Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+Collecting pywin32-ctypes>=0.2.0
+  Downloading pywin32_ctypes-0.2.2-py3-none-any.whl (30 kB)
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.7-py3-none-any.whl (66 kB)
+     |████████████████████████████████| 66 kB 1.2 MB/s
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.3.2-cp310-cp310-win_amd64.whl (100 kB)
+     |████████████████████████████████| 100 kB 2.9 MB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
+     |████████████████████████████████| 163 kB 6.4 MB/s
+Collecting distlib<1,>=0.3.7
+  Downloading distlib-0.3.8-py2.py3-none-any.whl (468 kB)
+     |████████████████████████████████| 468 kB 6.4 MB/s
+Collecting more-itertools
+  Downloading more_itertools-10.2.0-py3-none-any.whl (57 kB)
+     |████████████████████████████████| 57 kB 2.3 MB/s
+Installing collected packages: urllib3, idna, charset-normalizer, certifi, zipp, requests, msgpack, more-itertools, tomli, rapidfuzz, pywin32-ctypes, pyproject-hooks, ptyprocess, poetry-core, platformdirs, packaging, jaraco.classes, importlib-metadata, filelock, distlib, crashtest, colorama, cachecontrol, virtualenv, trove-classifiers, tomlkit, shellingham, requests-toolbelt, poetry-plugin-export, pkginfo, pexpect, keyring, installer, fastjsonschema, dulwich, cleo, build, poetry
+Successfully installed build-1.2.1 cachecontrol-0.14.0 certifi-2024.2.2 charset-normalizer-3.3.2 cleo-2.1.0 colorama-0.4.6 crashtest-0.4.1 distlib-0.3.8 dulwich-0.21.7 fastjsonschema-2.19.1 filelock-3.14.0 idna-3.7 importlib-metadata-7.1.0 installer-0.7.0 jaraco.classes-3.4.0 keyring-24.3.1 more-itertools-10.2.0 msgpack-1.0.8 packaging-24.0 pexpect-4.9.0 pkginfo-1.10.0 platformdirs-4.2.1 poetry-1.8.3 poetry-core-1.9.0 poetry-plugin-export-1.8.0 ptyprocess-0.7.0 pyproject-hooks-1.1.0 pywin32-ctypes-0.2.2 rapidfuzz-3.9.0 requests-2.31.0 requests-toolbelt-1.0.0 shellingham-1.5.4 tomli-2.0.1 tomlkit-0.12.5 trove-classifiers-2024.4.10 urllib3-2.2.1 virtualenv-20.26.2 zipp-3.18.1
+WARNING: You are using pip version 21.2.3; however, version 24.0 is available.
+You should consider upgrading via the 'C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\RRanjan>n poetry config virtualenvs.in-project true
+'n' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\RRanjan> poetry config virtualenvs.in-project true
+
+C:\Users\RRanjan>mkdir dbt_demo
+
+C:\Users\RRanjan>cd dbt_demo
+
+C:\Users\RRanjan\dbt_demo> poetry init
+
+This command will guide you through creating your pyproject.toml config.
+
+Package name [dbt_demo]:
+Version [0.1.0]:
+Description []:
+Author [Raman <rranjan@archinsurance.com>, n to skip]:
+License []:
+Compatible Python versions [^3.10]:
+
+Would you like to define your main dependencies interactively? (yes/no) [yes] no
+Would you like to define your development dependencies interactively? (yes/no) [yes] no
+Generated file
+
+[tool.poetry]
+name = "dbt-demo"
+version = "0.1.0"
+description = ""
+authors = ["Raman <rranjan@archinsurance.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+Do you confirm generation? (yes/no) [yes] yes
+
+C:\Users\RRanjan\dbt_demo>code .
+
+C:\Users\RRanjan\dbt_demo>code .
+
+C:\Users\RRanjan\dbt_demo> poetry install
+Creating virtualenv dbt-demo in C:\Users\RRanjan\dbt_demo\.venv
+Updating dependencies
+Resolving dependencies... (47.9s)
+
+Package operations: 92 installs, 0 updates, 0 removals
+
+  - Installing attrs (23.2.0)
+  - Installing rpds-py (0.18.1)
+  - Installing referencing (0.35.1)
+  - Installing six (1.16.0)
+  - Installing text-unidecode (1.3)
+  - Installing babel (2.15.0)
+  - Installing certifi (2024.2.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing idna (3.7)
+  - Installing isodate (0.6.1)
+  - Installing jsonschema-specifications (2023.12.1)
+  - Installing leather (0.4.0)
+  - Installing markupsafe (2.1.5)
+  - Installing msgpack (1.0.8)
+  - Installing parsedatetime (2.6)
+  - Installing pycparser (2.22)
+  - Installing python-slugify (8.0.4)
+  - Installing pytimeparse (1.1.8)
+  - Installing tzdata (2024.1)
+  - Installing typing-extensions (4.11.0)
+  - Installing urllib3 (2.2.1)
+  - Installing agate (1.9.1)
+  - Installing annotated-types (0.6.0)
+  - Installing cffi (1.16.0)
+  - Installing colorama (0.4.6)
+  - Installing jinja2 (3.1.4)
+  - Installing jsonschema (4.22.0)
+  - Installing mashumaro (3.13)
+  - Installing more-itertools (10.2.0)
+  - Installing pathspec (0.12.1)
+  - Installing protobuf (4.25.3)
+  - Installing pydantic-core (2.18.2)
+  - Installing requests (2.31.0)
+  - Installing python-dateutil (2.9.0.post0)
+  - Installing zipp (3.18.1)
+  - Installing chardet (5.2.0)
+  - Installing click (8.1.7)
+  - Installing cryptography (42.0.7)
+  - Installing dbt-common (1.0.4)
+  - Installing exceptiongroup (1.2.1)
+  - Installing importlib-metadata (6.11.0)
+  - Installing iniconfig (2.0.0)
+  - Installing jaraco-classes (3.4.0)
+  - Installing mdurl (0.1.2)
+  - Installing packaging (24.0)
+  - Installing pluggy (1.5.0)
+  - Installing pygments (2.18.0)
+  - Installing pydantic (2.7.1)
+  - Installing pytz (2024.1)
+  - Installing pywin32-ctypes (0.2.2)
+  - Installing pyyaml (6.0.1)
+  - Installing tomli (2.0.1)
+  - Installing appdirs (1.4.4)
+  - Installing asn1crypto (1.5.1)
+  - Installing daff (1.3.46)
+  - Installing dbt-adapters (1.1.1)
+  - Installing dbt-extractor (0.5.1)
+  - Installing dbt-semantic-interfaces (0.5.1)
+  - Installing diff-cover (9.0.0)
+  - Installing distlib (0.3.8)
+  - Installing filelock (3.14.0)
+  - Installing keyring (24.3.1)
+  - Installing logbook (1.5.3)
+  - Installing markdown-it-py (3.0.0)
+  - Installing minimal-snowplow-tracker (0.0.2)
+  - Installing networkx (3.3)
+  - Installing platformdirs (4.2.1)
+  - Installing pyjwt (2.8.0)
+  - Installing pyopenssl (24.1.0)
+  - Installing pytest (8.2.0)
+  - Installing regex (2024.5.10)
+  - Installing ruamel-yaml-clib (0.2.8)
+  - Installing sortedcontainers (2.4.0)
+  - Installing sqlparse (0.5.0)
+  - Installing tblib (3.0.0)
+  - Installing toml (0.10.2)
+  - Installing tomlkit (0.12.5)
+  - Installing tqdm (4.66.4)
+  - Installing cfgv (3.4.0)
+  - Installing dbt-core (1.8.0): Installing...
+  - Installing identify (2.5.36)
+  - Installing dbt-core (1.8.0)
+  - Installing identify (2.5.36)
+  - Installing jinja2-simple-tags (0.6.1)
+  - Installing nodeenv (1.8.0)
+  - Installing rich (13.7.1)
+  - Installing ruamel-yaml (0.18.6)
+  - Installing snowflake-connector-python (3.10.0)
+  - Installing sqlfluff (2.3.5)
+  - Installing virtualenv (20.26.2)
+  - Installing dbt-snowflake (1.8.0): Installing...
+  - Installing dbt-snowflake (1.8.0)
+  - Installing pre-commit (3.7.1)
+  - Installing pytest-sqlfluff (0.1.1)
+  - Installing sqlfluff-templater-dbt (2.3.5)
+
+Writing lock file
+
+C:\Users\RRanjan\dbt_demo> poetry run dbt init
+15:48:31  Running with dbt=1.8.0
+15:48:32  [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/RRanjan/.dbt')}
+15:48:32  Creating dbt configuration folder at
+Enter a name for your project (letters, digits, underscore): dbt_demo
+15:49:48
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:49:48  Setting up your profile.
+Which database would you like to use?
+[1] snowflake
+
+(Don't see the one you want? https://docs.getdbt.com/docs/available-adapters)
+
+Enter a number: 1
+account (https://<this_value>.snowflakecomputing.com): bsngqpt-wz31723
+user (dev username): db_user
+[1] password
+[2] keypair
+[3] sso
+Desired authentication type option (enter a number): 1
+password (dev password):
+role (dev role):
+role (dev role):
+role (dev role): dbt_dev_role
+warehouse (warehouse name): dbt_dev_wh
+database (default database that dbt will build objects in): dbt_dev
+schema (default schema that dbt will build objects in): public
+threads (1 or more) [1]: 2
+15:52:52  Profile dbt_demo written to C:\Users\RRanjan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+
+C:\Users\RRanjan\dbt_demo>xcopy dbt_demo\* . /E /H /Y
+dbt_demo\.gitignore
+dbt_demo\dbt_project.yml
+dbt_demo\README.md
+dbt_demo\analyses\.gitkeep
+dbt_demo\macros\.gitkeep
+dbt_demo\models\example\my_first_dbt_model.sql
+dbt_demo\models\example\my_second_dbt_model.sql
+dbt_demo\models\example\schema.yml
+dbt_demo\seeds\.gitkeep
+dbt_demo\snapshots\.gitkeep
+dbt_demo\tests\.gitkeep
+11 File(s) copied
+
+C:\Users\RRanjan\dbt_demo>rmdir /s /q dbt_demo
+
+C:\Users\RRanjan\dbt_demo>cd..
+
+C:\Users\RRanjan>poetry run dbt debug
+
+Poetry could not find a pyproject.toml file in C:\Users\RRanjan or its parents
+
+C:\Users\RRanjan>cd dbt_demo
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt debug
+15:56:58  Running with dbt=1.8.0
+15:56:58  dbt version: 1.8.0
+15:56:58  python version: 3.10.0
+15:56:58  python path: C:\Users\RRanjan\dbt_demo\.venv\Scripts\python.exe
+15:56:58  os info: Windows-10-10.0.19045-SP0
+15:56:58  Using profiles dir at C:\Users\RRanjan\.dbt
+15:56:58  Using profiles.yml file at C:\Users\RRanjan\.dbt\profiles.yml
+15:56:58  Using dbt_project.yml file at C:\Users\RRanjan\dbt_demo\dbt_project.yml
+15:56:58  adapter type: snowflake
+15:56:58  adapter version: 1.8.0
+15:56:58  Configuration:
+15:56:58    profiles.yml file [OK found and valid]
+15:56:58    dbt_project.yml file [OK found and valid]
+15:56:58  Required dependencies:
+15:56:59   - git [OK found]
+
+15:56:59  Connection:
+15:56:59    account: bsngqpt-wz31723
+15:56:59    user: db_user
+15:56:59    database: dbt_dev
+15:56:59    warehouse: dbt_dev_wh
+15:56:59    role: dbt_dev_role
+15:56:59    schema: public
+15:56:59    authenticator: None
+15:56:59    oauth_client_id: None
+15:56:59    query_tag: None
+15:56:59    client_session_keep_alive: False
+15:56:59    host: None
+15:56:59    port: None
+15:56:59    proxy_host: None
+15:56:59    proxy_port: None
+15:56:59    protocol: None
+15:56:59    connect_retries: 1
+15:56:59    connect_timeout: None
+15:56:59    retry_on_database_errors: False
+15:56:59    retry_all: False
+15:56:59    insecure_mode: False
+15:56:59    reuse_connections: None
+15:56:59  Registered adapter: snowflake=1.8.0
+15:57:00    Connection test: [ERROR]
+
+15:57:00  1 check failed:
+15:57:00  dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: bsngqpt-wz31723.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt debug
+15:58:26  Running with dbt=1.8.0
+15:58:26  dbt version: 1.8.0
+15:58:26  python version: 3.10.0
+15:58:26  python path: C:\Users\RRanjan\dbt_demo\.venv\Scripts\python.exe
+15:58:26  os info: Windows-10-10.0.19045-SP0
+15:58:27  Using profiles dir at C:\Users\RRanjan\.dbt
+15:58:27  Using profiles.yml file at C:\Users\RRanjan\.dbt\profiles.yml
+15:58:27  Using dbt_project.yml file at C:\Users\RRanjan\dbt_demo\dbt_project.yml
+15:58:27  adapter type: snowflake
+15:58:27  adapter version: 1.8.0
+15:58:27  Configuration:
+15:58:27    profiles.yml file [OK found and valid]
+15:58:27    dbt_project.yml file [OK found and valid]
+15:58:27  Required dependencies:
+15:58:27   - git [OK found]
+
+15:58:27  Connection:
+15:58:27    account: bsngqpt-wz31723
+15:58:27    user: dbt_user
+15:58:27    database: dbt_dev
+15:58:27    warehouse: dbt_dev_wh
+15:58:27    role: dbt_dev_role
+15:58:27    schema: public
+15:58:27    authenticator: None
+15:58:27    oauth_client_id: None
+15:58:27    query_tag: None
+15:58:27    client_session_keep_alive: False
+15:58:27    host: None
+15:58:27    port: None
+15:58:27    proxy_host: None
+15:58:27    proxy_port: None
+15:58:27    protocol: None
+15:58:27    connect_retries: 1
+15:58:27    connect_timeout: None
+15:58:27    retry_on_database_errors: False
+15:58:27    retry_all: False
+15:58:27    insecure_mode: False
+15:58:27    reuse_connections: None
+15:58:27  Registered adapter: snowflake=1.8.0
+15:58:28    Connection test: [OK connection ok]
+
+15:58:28  All checks passed!
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt debug
+13:08:55  Running with dbt=1.8.0
+13:08:55  dbt version: 1.8.0
+13:08:55  python version: 3.10.0
+13:08:55  python path: C:\Users\RRanjan\dbt_demo\.venv\Scripts\python.exe
+13:08:55  os info: Windows-10-10.0.19045-SP0
+13:08:56  Using profiles dir at C:\Users\RRanjan\.dbt
+13:08:56  Using profiles.yml file at C:\Users\RRanjan\.dbt\profiles.yml
+13:08:56  Using dbt_project.yml file at C:\Users\RRanjan\dbt_demo\dbt_project.yml
+13:08:56  adapter type: snowflake
+13:08:56  adapter version: 1.8.0
+13:08:56  Configuration:
+13:08:56    profiles.yml file [OK found and valid]
+13:08:56    dbt_project.yml file [OK found and valid]
+13:08:56  Required dependencies:
+13:08:56   - git [OK found]
+
+13:08:56  Connection:
+13:08:56    account: bsngqpt-wz31723
+13:08:56    user: dbt_user
+13:08:56    database: dbt_dev
+13:08:56    warehouse: dbt_dev_wh
+13:08:56    role: dbt_dev_role
+13:08:56    schema: public
+13:08:56    authenticator: None
+13:08:56    oauth_client_id: None
+13:08:56    query_tag: None
+13:08:56    client_session_keep_alive: False
+13:08:56    host: None
+13:08:56    port: None
+13:08:56    proxy_host: None
+13:08:56    proxy_port: None
+13:08:56    protocol: None
+13:08:56    connect_retries: 1
+13:08:56    connect_timeout: None
+13:08:56    retry_on_database_errors: False
+13:08:56    retry_all: False
+13:08:56    insecure_mode: False
+13:08:56    reuse_connections: None
+13:08:56  Registered adapter: snowflake=1.8.0
+13:08:58    Connection test: [OK connection ok]
+
+13:08:58  All checks passed!
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt debug
+13:10:07  Running with dbt=1.8.0
+13:10:07  dbt version: 1.8.0
+13:10:07  python version: 3.10.0
+13:10:07  python path: C:\Users\RRanjan\dbt_demo\.venv\Scripts\python.exe
+13:10:07  os info: Windows-10-10.0.19045-SP0
+13:10:08  Using profiles dir at C:\Users\RRanjan\.dbt
+13:10:08  Using profiles.yml file at C:\Users\RRanjan\.dbt\profiles.yml
+13:10:08  Using dbt_project.yml file at C:\Users\RRanjan\dbt_demo\dbt_project.yml
+13:10:08  adapter type: snowflake
+13:10:08  adapter version: 1.8.0
+13:10:08  Configuration:
+13:10:08    profiles.yml file [OK found and valid]
+13:10:08    dbt_project.yml file [OK found and valid]
+13:10:08  Required dependencies:
+13:10:08   - git [OK found]
+
+13:10:08  Connection:
+13:10:08    account: bsngqpt-wz31723
+13:10:08    user: dbt_user
+13:10:08    database: dbt_dev
+13:10:08    warehouse: dbt_dev_wh
+13:10:08    role: dbt_dev_role
+13:10:08    schema: public
+13:10:08    authenticator: None
+13:10:08    oauth_client_id: None
+13:10:08    query_tag: None
+13:10:08    client_session_keep_alive: False
+13:10:08    host: None
+13:10:08    port: None
+13:10:08    proxy_host: None
+13:10:08    proxy_port: None
+13:10:08    protocol: None
+13:10:08    connect_retries: 1
+13:10:08    connect_timeout: None
+13:10:08    retry_on_database_errors: False
+13:10:08    retry_all: False
+13:10:08    insecure_mode: False
+13:10:08    reuse_connections: None
+13:10:08  Registered adapter: snowflake=1.8.0
+13:10:09    Connection test: [OK connection ok]
+
+13:10:09  All checks passed!
+
+C:\Users\RRanjan\dbt_demo>
+
+
+DAY 1:
+
+********************************
+
+11:01:43  
+11:01:44  Concurrency: 2 threads (target='dev')
+11:01:44  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:02:39  Running with dbt=1.8.0
+11:02:40  Registered adapter: snowflake=1.8.0
+11:02:40  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:02:40
+11:02:42  Concurrency: 2 threads (target='dev')
+11:02:42
+
+C:\Users\RRanjan\dbt_demo>python -m poetry run dbt complie
+Usage: dbt [OPTIONS] COMMAND [ARGS]...
+Try 'dbt -h' for help.
+
+Error: No such command 'complie'.
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:06:11  Running with dbt=1.8.0
+11:06:12  Registered adapter: snowflake=1.8.0
+11:06:13  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:06:13
+11:06:14  Concurrency: 2 threads (target='dev')
+11:06:14
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compilepayment_app
+Usage: dbt [OPTIONS] COMMAND [ARGS]...
+Try 'dbt -h' for help.
+
+Error: No such command 'compilepayment_app'.
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:07:55  Running with dbt=1.8.0
+11:07:56  Registered adapter: snowflake=1.8.0
+11:07:57  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:07:57  
+11:07:58  Concurrency: 2 threads (target='dev')
+11:07:58  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:10:40  Running with dbt=1.8.0
+11:10:41  Registered adapter: snowflake=1.8.0
+11:10:42  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:10:42  
+11:10:43  Concurrency: 2 threads (target='dev')
+11:10:43  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:10:53  Running with dbt=1.8.0
+11:10:53  Registered adapter: snowflake=1.8.0
+11:10:54  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:10:54  
+11:10:55  Concurrency: 2 threads (target='dev')
+11:10:55  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:11:14  Running with dbt=1.8.0
+11:11:15  Registered adapter: snowflake=1.8.0
+11:11:15  Encountered an error:
+Parsing Error
+  The schema file at models\staging\tech_store\staging_tech_store__sources.yml is invalid because a list element for 'sources' does not have a name attribute.
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:11:39  Running with dbt=1.8.0
+11:11:40  Registered adapter: snowflake=1.8.0
+11:11:41  Found 2 models, 4 data tests, 8 sources, 443 macros
+11:11:41  
+11:11:42  Concurrency: 2 threads (target='dev')
+11:11:42  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:21:39  Running with dbt=1.8.0
+11:21:40  Registered adapter: snowflake=1.8.0
+11:21:40  Encountered an error:
+Compilation Error in model stg_tech_store__cities (models\staging\tech_store\stg_tech_store__cities.sql)
+  source() takes exactly two arguments (1 given)
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:22:35  Running with dbt=1.8.0
+11:22:36  Registered adapter: snowflake=1.8.0
+11:22:37  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:22:37
+11:22:39  Concurrency: 2 threads (target='dev')
+11:22:39
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:23:56  Running with dbt=1.8.0
+11:23:57  Registered adapter: snowflake=1.8.0
+11:23:58  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:23:58
+11:23:59  Concurrency: 2 threads (target='dev')
+11:23:59
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:32:13  Running with dbt=1.8.0
+11:32:15  Registered adapter: snowflake=1.8.0
+11:32:16  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:32:16  
+11:32:18  Concurrency: 2 threads (target='dev')
+11:32:18  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run    
+11:33:51  Running with dbt=1.8.0
+11:33:52  Registered adapter: snowflake=1.8.0
+11:33:53  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:33:53  
+11:33:56  Concurrency: 2 threads (target='dev')
+11:33:56  
+11:33:56  1 of 3 START sql table model public.my_first_dbt_model ......................... [RUN]
+11:33:56  2 of 3 START sql view model public.stg_tech_store__cities ...................... [RUN]
+11:33:58  2 of 3 OK created sql view model public.stg_tech_store__cities ................. [SUCCESS 1 in 1.67s]
+11:33:59  1 of 3 OK created sql table model public.my_first_dbt_model .................... [SUCCESS 1 in 2.36s]
+11:33:59  3 of 3 START sql view model public.my_second_dbt_model ......................... [RUN]
+11:34:00  3 of 3 OK created sql view model public.my_second_dbt_model .................... [SUCCESS 1 in 1.21s]
+11:34:00  
+11:34:00  Finished running 2 view models, 1 table model in 0 hours 0 minutes and 6.81 seconds (6.81s).
+11:34:01  
+11:34:01  Completed successfully
+11:34:01  
+11:34:01  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:37:32  Running with dbt=1.8.0
+11:37:33  Registered adapter: snowflake=1.8.0
+11:37:34  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:37:34
+11:37:36  Concurrency: 2 threads (target='dev')
+11:37:36
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:37:57  Running with dbt=1.8.0
+11:37:58  Registered adapter: snowflake=1.8.0
+11:37:59  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:37:36
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:37:57  Running with dbt=1.8.0
+11:37:58  Registered adapter: snowflake=1.8.0
+11:37:59  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:37:59  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:37:59
+11:38:01  Concurrency: 2 threads (target='dev')
+11:38:01
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:45:23  Running with dbt=1.8.0
+11:45:24  Registered adapter: snowflake=1.8.0
+11:45:24  Unable to do partial parsing because a project config has changed
+11:45:26  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:45:26  Found 3 models, 5 data tests, 8 sources, 443 macros
+11:45:26  
+11:45:28  Concurrency: 2 threads (target='dev')
+11:45:28  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:47:50  Running with dbt=1.8.0
+11:47:51  Registered adapter: snowflake=1.8.0
+11:47:52  Unable to do partial parsing because change detected to override macro. Starting full parse.
+11:47:53  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:47:54  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:47:54  
+11:47:55  Concurrency: 2 threads (target='dev')
+11:47:55  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:48:49  Running with dbt=1.8.0
+11:48:51  Registered adapter: snowflake=1.8.0
+11:48:52  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:48:52  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:48:52  
+11:48:53  Concurrency: 2 threads (target='dev')
+11:48:53  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:50:31  Running with dbt=1.8.0
+11:50:32  Registered adapter: snowflake=1.8.0
+11:50:32  Unable to do partial parsing because a project config has changed
+11:50:35  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:50:35  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:50:35  
+11:50:36  Concurrency: 2 threads (target='dev')
+11:50:36  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:53:14  Running with dbt=1.8.0
+11:53:14  Registered adapter: snowflake=1.8.0
+11:53:15  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:53:15  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:53:15  
+11:53:16  Concurrency: 2 threads (target='dev')
+11:53:16  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:55:24  Running with dbt=1.8.0
+11:55:25  Registered adapter: snowflake=1.8.0
+11:55:25  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.staging
+11:55:25  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:55:25  
+11:55:27  Concurrency: 2 threads (target='dev')
+11:55:27  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+11:56:03  Running with dbt=1.8.0
+11:56:04  Registered adapter: snowflake=1.8.0
+11:56:04  Unable to do partial parsing because a project config has changed
+11:56:07  Found 3 models, 5 data tests, 8 sources, 444 macros
+11:56:07  
+11:56:09  Concurrency: 2 threads (target='dev')
+11:56:09  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run    
+11:56:26  Running with dbt=1.8.0
+my_second_dbt_model .................... [SUCCESS 1 in 0.91s]
+11:56:35
+11:56:35  Finished running 2 view models, 1 table model in 0 hours 0 minutes and 7.50 seconds (7.50s).
+11:56:35
+11:56:35  Completed successfully
+11:56:35
+11:56:35  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:03:29  Running with dbt=1.8.0
+13:03:30  Registered adapter: snowflake=1.8.0
+13:03:30  Encountered an error:
+Compilation Error
+  Model 'model.dbt_demo.stg_payment_appe__transactions' (models\staging\payment_app\stg_payment_appe__transactions.sql) depends on a source named 'payment_app.transactions' which was not foun
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:05:24  Running with dbt=1.8.0
+13:05:25  Registered adapter: snowflake=1.8.0
+13:05:26  Encountered an error:
+Compilation Error
+  Model 'model.dbt_demo.stg_payment_appe__transactions' (models\staging\payment_app\stg_payment_appe__transactions.sql) depends on a source named 'payment_app.transactions' which was not foun
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:07:19  Running with dbt=1.8.0
+13:07:20  Registered adapter: snowflake=1.8.0
+13:07:21  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:07:21  
+13:07:22  Concurrency: 2 threads (target='dev')
+13:07:22  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:14:28  Running with dbt=1.8.0
+13:14:29  Registered adapter: snowflake=1.8.0
+13:14:30  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:14:30  
+13:14:32  Concurrency: 2 threads (target='dev')
+13:14:32  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:15:26  Running with dbt=1.8.0
+13:15:27  Registered adapter: snowflake=1.8.0
+13:15:28  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:15:28  
+13:15:32  Concurrency: 2 threads (target='dev')
+13:15:32  
+13:15:32  1 of 4 START sql table model public.my_first_dbt_model ......................... [RUN]
+13:15:32  2 of 4 START sql view model staging.stg_payment_appe__transactions ............. [RUN]
+13:15:33  2 of 4 ERROR creating sql view model staging.stg_payment_appe__transactions .... [ERROR in 1.80s]
+13:15:33  3 of 4 START sql view model staging.stg_tech_store__cities ..................... [RUN]
+13:15:34  1 of 4 OK created sql table model public.my_first_dbt_model .................... [SUCCESS 1 in 2.46s]
+13:15:34  4 of 4 START sql view model public.my_second_dbt_model ......................... [RUN]
+13:15:34  3 of 4 OK created sql view model staging.stg_tech_store__cities ................ [SUCCESS 1 in 1.04s]
+13:15:35  4 of 4 OK created sql view model public.my_second_dbt_model .................... [SUCCESS 1 in 1.10s]
+13:15:35  
+13:15:35  Finished running 3 view models, 1 table model in 0 hours 0 minutes and 7.09 seconds (7.09s).
+13:15:35  
+13:15:35  Completed with 1 error and 0 warnings:
+13:15:35
+13:15:35    Database Error in model stg_payment_appe__transactions (models\staging\payment_app\stg_payment_appe__transactions.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'RAW.PAYMENT_APP.TRANSACTION' does not exist or not authorized.
+  compiled Code at target\run\dbt_demo\models\staging\payment_app\stg_payment_appe__transactions.sql
+13:15:35
+13:15:35  Done. PASS=3 WARN=0 ERROR=1 SKIP=0 TOTAL=4
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:16:46  Running with dbt=1.8.0
+13:16:47  Registered adapter: snowflake=1.8.0
+13:16:48  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:16:48  
+13:16:50  Concurrency: 2 threads (target='dev')
+13:16:50  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:17:16  Running with dbt=1.8.0
+13:17:17  Registered adapter: snowflake=1.8.0
+13:17:18  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:17:18  
+13:17:20  Concurrency: 2 threads (target='dev')
+13:17:20  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:18:11  Running with dbt=1.8.0
+13:18:12  Registered adapter: snowflake=1.8.0
+13:18:13  Encountered an error:
+Compilation Error
+  Model 'model.dbt_demo.stg_payment_appe__transactions' (models\staging\payment_app\stg_payment_appe__transactions.sql) depends on a source named 'payment_app.transactions' which was not foun
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:18:49  Running with dbt=1.8.0
+13:18:50  Registered adapter: snowflake=1.8.0
+13:18:51  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:18:51  
+13:18:53  Concurrency: 2 threads (target='dev')
+13:18:53  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:19:11  Running with dbt=1.8.0
+13:19:12  Registered adapter: snowflake=1.8.0
+13:19:13  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:19:13  
+13:19:15  Concurrency: 2 threads (target='dev')
+13:19:15  
+13:19:15  1 of 4 START sql table model public.my_first_dbt_model ......................... [RUN]
+13:19:15  2 of 4 START sql view model staging.stg_payment_appe__transactions ............. [RUN]
+13:19:17  2 of 4 ERROR creating sql view model staging.stg_payment_appe__transactions .... [ERROR in 1.40s]
+13:19:17  3 of 4 START sql view model staging.stg_tech_store__cities ..................... [RUN]
+13:19:18  1 of 4 OK created sql table model public.my_first_dbt_model .................... [SUCCESS 1 in 2.19s]
+13:19:18  4 of 4 START sql view model public.my_second_dbt_model ......................... [RUN]
+13:19:18  3 of 4 OK created sql view model staging.stg_tech_store__cities ................ [SUCCESS 1 in 0.93s]
+13:19:19  4 of 4 OK created sql view model public.my_second_dbt_model .................... [SUCCESS 1 in 0.97s]
+13:19:19  
+13:19:19  Finished running 3 view models, 1 table model in 0 hours 0 minutes and 5.95 seconds (5.95s).
+13:19:19  
+13:19:19  Completed with 1 error and 0 warnings:
+13:19:19
+13:19:19    Database Error in model stg_payment_appe__transactions (models\staging\payment_app\stg_payment_appe__transactions.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'RAW.PAYMENT_APP.TRANSACTION' does not exist or not authorized.
+  compiled Code at target\run\dbt_demo\models\staging\payment_app\stg_payment_appe__transactions.sql
+13:19:19
+13:19:19  Done. PASS=3 WARN=0 ERROR=1 SKIP=0 TOTAL=4
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:20:12  Running with dbt=1.8.0
+13:20:13  Registered adapter: snowflake=1.8.0
+13:20:13  Encountered an error:
+Compilation Error
+  Model 'model.dbt_demo.stg_payment_appe__transactions' (models\staging\payment_app\stg_payment_appe__transactions.sql) depends on a source named 'payment_app.transactions' which was not foun
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:20:35  Running with dbt=1.8.0
+13:20:36  Registered adapter: snowflake=1.8.0
+13:20:37  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:20:37  
+13:20:38  Concurrency: 2 threads (target='dev')
+13:20:38  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:20:49  Running with dbt=1.8.0
+13:20:50  Registered adapter: snowflake=1.8.0
+13:20:50  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:20:50  
+13:20:52  Concurrency: 2 threads (target='dev')
+13:20:52  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:21:04  Running with dbt=1.8.0
+13:21:05  Registered adapter: snowflake=1.8.0
+13:21:06  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:21:06  
+13:21:09  Concurrency: 2 threads (target='dev')
+13:21:09  
+13:21:09  1 of 4 START sql table model public.my_first_dbt_model ......................... [RUN]
+13:21:09  2 of 4 START sql view model staging.stg_payment_appe__transactions ............. [RUN]
+13:21:11  2 of 4 OK created sql view model staging.stg_payment_appe__transactions ........ [SUCCESS 1 in 1.69s]
+13:21:11  3 of 4 START sql view model staging.stg_tech_store__cities ..................... [RUN]
+13:21:11  1 of 4 OK created sql table model public.my_first_dbt_model .................... [SUCCESS 1 in 2.37s]
+13:21:11  4 of 4 START sql view model public.my_second_dbt_model ......................... [RUN]
+13:21:12  3 of 4 OK created sql view model staging.stg_tech_store__cities ................ [SUCCESS 1 in 1.59s]
+13:21:13  4 of 4 OK created sql view model public.my_second_dbt_model .................... [SUCCESS 1 in 1.49s]
+13:21:13  
+13:21:13  Finished running 3 view models, 1 table model in 0 hours 0 minutes and 6.84 seconds (6.84s).
+13:21:13  
+13:21:13  Completed successfully
+13:21:13  
+13:21:13  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:21:53  Running with dbt=1.8.0
+13:21:54  Registered adapter: snowflake=1.8.0
+13:21:55  Found 4 models, 5 data tests, 8 sources, 444 macros
+13:21:55  
+13:21:57  Concurrency: 2 threads (target='dev')
+13:21:57  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:23:04  Running with dbt=1.8.0
+13:23:05  Registered adapter: snowflake=1.8.0
+13:23:06  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:23:06  
+13:23:09  Concurrency: 2 threads (target='dev')
+13:23:09  
+13:23:09  1 of 10 START sql table model public.my_first_dbt_model ........................ [RUN]
+13:23:09  2 of 10 START sql view model staging.stg_payment_appe__transactions ............ [RUN]
+13:23:11  2 of 10 ERROR creating sql view model staging.stg_payment_appe__transactions ... [ERROR in 1.59s]
+13:23:11  3 of 10 START sql view model staging.stg_tech_store__cities .................... [RUN]
+13:23:11  1 of 10 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.43s]
+13:23:11  4 of 10 START sql view model staging.stg_tech_store__customers ................. [RUN]
+13:23:12  3 of 10 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 1.13s]
+13:23:12  5 of 10 START sql view model staging.stg_tech_store__employees ................. [RUN]
+13:23:13  4 of 10 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.37s]
+13:23:13  6 of 10 START sql view model staging.stg_tech_store__orders .................... [RUN]
+13:23:13  5 of 10 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.48s]
+13:23:13  7 of 10 START sql view model staging.stg_tech_store__products .................. [RUN]
+13:23:14  6 of 10 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.55s]
+13:23:14  8 of 10 START sql view model staging.stg_tech_store__states .................... [RUN]
+13:23:15  7 of 10 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.48s]
+13:23:15  9 of 10 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+13:23:16  8 of 10 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.24s]
+13:23:16  10 of 10 START sql view model public.my_second_dbt_model ....................... [RUN]
+13:23:16  9 of 10 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.24s]
+13:23:17  10 of 10 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.23s]
+13:23:17  
+13:23:17  Finished running 9 view models, 1 table model in 0 hours 0 minutes and 10.95 seconds (10.95s).
+13:23:17  
+13:23:17  Completed with 1 error and 0 warnings:
+13:23:17
+13:23:17    Database Error in model stg_payment_appe__transactions (models\staging\payment_app\stg_payment_appe__transactions.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 9 at position 11 unexpected 'as'.
+  syntax error line 10 at position 15 unexpected ','.
+  syntax error line 11 at position 15 unexpected ':'.
+  syntax error line 11 at position 32 unexpected '18'.
+  syntax error line 11 at position 39 unexpected 'as'.
+  compiled Code at target\run\dbt_demo\models\staging\payment_app\stg_payment_appe__transactions.sql
+13:23:17
+13:23:17  Done. PASS=9 WARN=0 ERROR=1 SKIP=0 TOTAL=10
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:23:55  Running with dbt=1.8.0
+13:23:56  Registered adapter: snowflake=1.8.0
+13:23:57  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:23:57  
+13:23:58  Concurrency: 2 threads (target='dev')
+13:23:58  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:24:35  Running with dbt=1.8.0
+13:24:36  Registered adapter: snowflake=1.8.0
+13:24:37  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:24:37  
+13:24:39  Concurrency: 2 threads (target='dev')
+13:24:39  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:24:50  Running with dbt=1.8.0
+13:24:51  Registered adapter: snowflake=1.8.0
+13:24:52  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:24:52  
+13:24:55  Concurrency: 2 threads (target='dev')
+13:24:55  
+13:24:55  1 of 10 START sql table model public.my_first_dbt_model ........................ [RUN]
+13:24:55  2 of 10 START sql view model staging.stg_payment_appe__transactions ............ [RUN]
+13:24:56  2 of 10 OK created sql view model staging.stg_payment_appe__transactions ....... [SUCCESS 1 in 1.41s]
+13:24:56  3 of 10 START sql view model staging.stg_tech_store__cities .................... [RUN]
+13:24:57  1 of 10 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.12s]
+13:24:57  4 of 10 START sql view model staging.stg_tech_store__customers ................. [RUN]
+13:24:57  3 of 10 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.99s]
+13:24:57  5 of 10 START sql view model staging.stg_tech_store__employees ................. [RUN]
+13:24:58  4 of 10 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.26s]
+13:24:58  6 of 10 START sql view model staging.stg_tech_store__orders .................... [RUN]
+13:24:58  5 of 10 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.17s]
+13:24:58  7 of 10 START sql view model staging.stg_tech_store__products .................. [RUN]
+13:24:59  6 of 10 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.19s]
+13:24:59  8 of 10 START sql view model staging.stg_tech_store__states .................... [RUN]
+13:25:00  7 of 10 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.30s]
+13:25:00  9 of 10 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+13:25:01  8 of 10 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.42s]
+13:25:01  10 of 10 START sql view model public.my_second_dbt_model ....................... [RUN]
+13:25:01  9 of 10 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.27s]
+13:25:02  10 of 10 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.02s]
+13:25:02  
+13:25:02  Finished running 9 view models, 1 table model in 0 hours 0 minutes and 9.96 seconds (9.96s).
+13:25:02  
+13:25:02  Completed successfully
+13:25:02
+13:25:02  Done. PASS=10 WARN=0 ERROR=0 SKIP=0 TOTAL=10
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:26:29  Running with dbt=1.8.0
+13:26:29  Registered adapter: snowflake=1.8.0
+13:26:30  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:26:30  
+13:26:32  Concurrency: 2 threads (target='dev')
+13:26:32  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run
+13:26:44  Running with dbt=1.8.0
+13:26:45  Registered adapter: snowflake=1.8.0
+13:26:46  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:26:46  
+13:26:49  Concurrency: 2 threads (target='dev')
+13:26:49  
+13:26:49  2 of 10 START sql view model staging.stg_payment_appe__transactions ............ [RUN]
+13:26:49  1 of 10 START sql table model public.my_first_dbt_model ........................ [RUN]
+13:26:51  2 of 10 OK created sql view model staging.stg_payment_appe__transactions ....... [SUCCESS 1 in 1.51s]
+13:26:51  3 of 10 START sql view model staging.stg_tech_store__cities .................... [RUN]
+13:26:51  1 of 10 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.07s]
+13:26:51  4 of 10 START sql view model staging.stg_tech_store__customers ................. [RUN]
+13:26:52  3 of 10 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.93s]
+13:26:52  5 of 10 START sql view model staging.stg_tech_store__employees ................. [RUN]
+13:26:53  4 of 10 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.08s]
+13:26:53  6 of 10 START sql view model staging.stg_tech_store__orders .................... [RUN]
+13:26:53  5 of 10 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.08s]
+13:26:53  7 of 10 START sql view model staging.stg_tech_store__products .................. [RUN]
+13:26:54  6 of 10 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.31s]
+13:26:54  8 of 10 START sql view model staging.stg_tech_store__states .................... [RUN]
+13:26:54  7 of 10 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.14s]
+13:26:54  9 of 10 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+13:26:55  8 of 10 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.24s]
+13:26:55  10 of 10 START sql view model public.my_second_dbt_model ....................... [RUN]
+13:26:55  9 of 10 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.18s]
+13:26:56  10 of 10 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.15s]
+13:26:56
+13:26:56  Finished running 9 view models, 1 table model in 0 hours 0 minutes and 10.19 seconds (10.19s).
+13:26:56
+13:26:56  Completed successfully
+13:26:56
+13:26:56  Done. PASS=10 WARN=0 ERROR=0 SKIP=0 TOTAL=10
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:43:08  Running with dbt=1.8.0
+13:43:09  Registered adapter: snowflake=1.8.0
+13:43:09  [WARNING]: Did not find matching node for patch with name 'stg_payment_app_transactions' in the 'models' section of file 'models\staging\payment_app\stage_payment_app__model.yml'
+13:43:10  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:43:10  
+13:43:11  Concurrency: 2 threads (target='dev')
+13:43:11  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:44:20  Running with dbt=1.8.0
+13:44:22  Registered adapter: snowflake=1.8.0
+13:44:23  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:44:23  
+13:44:25  Concurrency: 2 threads (target='dev')
+13:44:25  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:46:11  Running with dbt=1.8.0
+13:46:12  Registered adapter: snowflake=1.8.0
+13:46:12  Unable to do partial parsing because a project config has changed
+13:46:14  [WARNING]: Did not find matching node for patch with name 'stg_payment_app_transactions' in the 'models' section of file 'models\staging\payment_app\stage_payment_app__model.yml'
+13:46:14  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_demo.marts
+13:46:15  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:46:15  
+13:46:16  Concurrency: 2 threads (target='dev')
+13:46:16  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+13:46:28  Running with dbt=1.8.0
+13:46:28  Registered adapter: snowflake=1.8.0
+13:46:29  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_demo.marts
+13:46:29  Found 10 models, 5 data tests, 8 sources, 444 macros
+13:46:29  
+13:46:32  Concurrency: 2 threads (target='dev')
+13:46:32  
+13:46:32  2 of 10 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+13:46:32  1 of 10 START sql table model public.my_first_dbt_model ........................ [RUN]
+13:46:34  2 of 10 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.60s]
+13:46:34  3 of 10 START sql view model staging.stg_tech_store__cities .................... [RUN]
+13:46:34  1 of 10 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.32s]
+13:46:34  4 of 10 START sql view model staging.stg_tech_store__customers ................. [RUN]
+13:46:35  3 of 10 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.91s]
+13:46:35  5 of 10 START sql view model staging.stg_tech_store__employees ................. [RUN]
+13:46:36  4 of 10 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.34s]
+13:46:36  6 of 10 START sql view model staging.stg_tech_store__orders .................... [RUN]
+13:46:36  5 of 10 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.27s]
+13:46:36  7 of 10 START sql view model staging.stg_tech_store__products .................. [RUN]
+13:46:37  6 of 10 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.27s]
+13:46:37  8 of 10 START sql view model staging.stg_tech_store__states .................... [RUN]
+13:46:37  7 of 10 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.28s]
+13:46:37  9 of 10 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+13:46:38  8 of 10 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.29s]
+13:46:38  10 of 10 START sql view model public.my_second_dbt_model ....................... [RUN]
+13:46:38  9 of 10 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.24s]
+13:46:39  10 of 10 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 0.96s]
+13:46:39  
+13:46:39  Finished running 9 view models, 1 table model in 0 hours 0 minutes and 10.04 seconds (10.04s).
+13:46:39  
+13:46:39  Completed successfully
+13:46:39
+13:46:39  Done. PASS=10 WARN=0 ERROR=0 SKIP=0 TOTAL=10
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+13:53:00  Running with dbt=1.8.0
+13:53:01  Registered adapter: snowflake=1.8.0
+13:53:02  Found 12 models, 5 data tests, 8 sources, 444 macros
+13:53:02  
+13:53:05  Concurrency: 2 threads (target='dev')
+13:53:05  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run
+13:53:15  Running with dbt=1.8.0
+13:53:16  Registered adapter: snowflake=1.8.0
+13:53:17  Found 12 models, 5 data tests, 8 sources, 444 macros
+13:53:17  
+13:53:22  Concurrency: 2 threads (target='dev')
+13:53:22  
+13:53:22  1 of 12 START sql table model public.my_first_dbt_model ........................ [RUN]
+13:53:22  2 of 12 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+13:53:24  2 of 12 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.45s]
+13:53:24  3 of 12 START sql view model staging.stg_tech_store__cities .................... [RUN]
+13:53:25  1 of 12 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.27s]
+13:53:25  4 of 12 START sql view model staging.stg_tech_store__customers ................. [RUN]
+13:53:25  3 of 12 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 1.11s]
+13:53:25  5 of 12 START sql view model staging.stg_tech_store__employees ................. [RUN]
+13:53:26  5 of 12 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.38s]
+13:53:26  6 of 12 START sql view model staging.stg_tech_store__orders .................... [RUN]
+13:53:26  4 of 12 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.69s]
+13:53:26  7 of 12 START sql view model staging.stg_tech_store__products .................. [RUN]
+13:53:28  7 of 12 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.48s]
+13:53:29  11 of 12 START sql table model marts.orders .................................... [RUN]
+13:53:31  10 of 12 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.86s]
+13:53:31  12 of 12 START sql table model marts.customers ................................. [RUN]
+13:53:32  11 of 12 OK created sql table model marts.orders ............................... [SUCCESS 1 in 2.64s]
+13:53:34  12 of 12 OK created sql table model marts.customers ............................ [SUCCESS 1 in 2.91s]
+13:53:34
+13:53:34  Finished running 9 view models, 3 table models in 0 hours 0 minutes and 17.23 seconds (17.23s).
+13:53:34
+13:53:34  Completed successfully
+13:53:34
+13:53:34  Done. PASS=12 WARN=0 ERROR=0 SKIP=0 TOTAL=12
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+14:09:08  Running with dbt=1.8.0
+14:09:09  Registered adapter: snowflake=1.8.0
+14:09:10  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:09:10  
+14:09:12  Concurrency: 2 threads (target='dev')
+14:09:12  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt docs generate
+14:11:17  Running with dbt=1.8.0
+14:11:17  Registered adapter: snowflake=1.8.0
+14:11:18  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:11:18  
+14:11:21  Concurrency: 2 threads (target='dev')
+14:11:21  
+14:11:21  Building catalog
+14:11:26  Catalog written to C:\Users\RRanjan\dbt_demo\target\catalog.json
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt docs serve   
+14:12:54  Running with dbt=1.8.0
+Serving docs at 8080
+To access from your browser, navigate to: http://localhost:8080
+
+
+
+Press Ctrl+C to exit.
+127.0.0.1 - - [20/May/2024 15:12:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 15:12:58] "GET /manifest.json?cb=1716214377946 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 15:12:58] "GET /catalog.json?cb=1716214377946 HTTP/1.1" 200 -
+14:23:01  Encountered an error:
+
+14:23:01  Traceback (most recent call last):
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\main.py", line 302, in docs_serve
+    results = task.run()
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\task\docs\serve.py", line 28, in run
+    httpd.serve_forever()
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 324, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 315, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run -s staging
+14:25:00  Running with dbt=1.8.0
+14:25:01  Registered adapter: snowflake=1.8.0
+14:25:01  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:25:01  
+14:25:05  Concurrency: 2 threads (target='dev')
+14:25:05  
+14:25:05  1 of 8 START sql view model staging.stg_payment_app__transactions .............. [RUN]
+14:25:05  2 of 8 START sql view model staging.stg_tech_store__cities ..................... [RUN]
+14:25:06  1 of 8 OK created sql view model staging.stg_payment_app__transactions ......... [SUCCESS 1 in 1.41s]
+14:25:06  3 of 8 START sql view model staging.stg_tech_store__customers .................. [RUN]
+14:25:06  2 of 8 OK created sql view model staging.stg_tech_store__cities ................ [SUCCESS 1 in 1.44s]
+14:25:06  4 of 8 START sql view model staging.stg_tech_store__employees .................. [RUN]
+14:25:08  4 of 8 OK created sql view model staging.stg_tech_store__employees ............. [SUCCESS 1 in 1.33s]
+14:25:08  3 of 8 OK created sql view model staging.stg_tech_store__customers ............. [SUCCESS 1 in 1.36s]
+14:25:08  5 of 8 START sql view model staging.stg_tech_store__orders ..................... [RUN]
+14:25:08  6 of 8 START sql view model staging.stg_tech_store__products ................... [RUN]
+14:25:09  6 of 8 OK created sql view model staging.stg_tech_store__products .............. [SUCCESS 1 in 1.35s]
+14:25:09  7 of 8 START sql view model staging.stg_tech_store__states ..................... [RUN]
+14:25:09  5 of 8 OK created sql view model staging.stg_tech_store__orders ................ [SUCCESS 1 in 1.39s]
+14:25:09  8 of 8 START sql view model staging.stg_tech_store__zip_codes .................. [RUN]
+14:25:10  7 of 8 OK created sql view model staging.stg_tech_store__states ................ [SUCCESS 1 in 1.29s]
+14:25:10  8 of 8 OK created sql view model staging.stg_tech_store__zip_codes ............. [SUCCESS 1 in 1.26s]
+14:25:10
+14:25:10  Finished running 8 view models in 0 hours 0 minutes and 8.96 seconds (8.96s).
+14:25:10  
+14:25:10  Completed successfully
+14:25:10
+14:25:10  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run -s +customer 
+14:26:27  Running with dbt=1.8.0
+14:26:28  Registered adapter: snowflake=1.8.0
+14:26:29  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:26:29  The selection criterion '+customer' does not match any enabled nodes
+14:26:29
+14:26:29  Nothing to do. Try checking your model configs and model specification args
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run -s marts    
+14:28:48  Running with dbt=1.8.0
+14:28:49  Registered adapter: snowflake=1.8.0
+14:28:50  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:28:50  
+14:28:53  Concurrency: 2 threads (target='dev')
+14:28:53  
+14:28:53  1 of 2 START sql table model marts.customers ................................... [RUN]
+14:28:53  2 of 2 START sql table model marts.orders ...................................... [RUN]
+14:28:56  1 of 2 OK created sql table model marts.customers .............................. [SUCCESS 1 in 2.55s]
+14:28:56  2 of 2 OK created sql table model marts.orders ................................. [SUCCESS 1 in 2.56s]
+14:28:56  
+14:28:56  Finished running 2 table models in 0 hours 0 minutes and 5.96 seconds (5.96s).
+14:28:56  
+14:28:56  Completed successfully
+14:28:56
+14:28:56  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile          
+14:29:21  Running with dbt=1.8.0
+14:29:22  Registered adapter: snowflake=1.8.0
+14:29:23  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:29:23  
+14:29:26  Concurrency: 2 threads (target='dev')
+14:29:26  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run           
+14:30:11  Running with dbt=1.8.0
+14:30:12  Registered adapter: snowflake=1.8.0
+14:30:13  Found 12 models, 5 data tests, 8 sources, 444 macros
+14:30:13  
+14:30:17  Concurrency: 2 threads (target='dev')
+14:30:17  
+14:30:17  1 of 12 START sql table model public.my_first_dbt_model ........................ [RUN]
+14:30:17  2 of 12 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+14:30:19  2 of 12 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.55s]
+14:30:19  3 of 12 START sql view model staging.stg_tech_store__cities .................... [RUN]
+14:30:19  1 of 12 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.26s]
+14:30:19  4 of 12 START sql view model staging.stg_tech_store__customers ................. [RUN]
+14:30:20  3 of 12 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.88s]
+14:30:20  5 of 12 START sql view model staging.stg_tech_store__employees ................. [RUN]
+14:30:21  4 of 12 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.36s]
+14:30:21  6 of 12 START sql view model staging.stg_tech_store__orders .................... [RUN]
+14:30:21  5 of 12 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.30s]
+14:30:21  7 of 12 START sql view model staging.stg_tech_store__products .................. [RUN]
+14:30:22  6 of 12 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.20s]
+14:30:22  8 of 12 START sql view model staging.stg_tech_store__states .................... [RUN]
+14:30:22  7 of 12 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.18s]
+14:30:22  9 of 12 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+14:30:23  8 of 12 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.22s]
+14:30:23  10 of 12 START sql view model public.my_second_dbt_model ....................... [RUN]
+14:30:23  9 of 12 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.15s]
+14:30:23  11 of 12 START sql table model marts.orders .................................... [RUN]
+14:30:25  10 of 12 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.49s]
+14:30:25  12 of 12 START sql table model marts.customers ................................. [RUN]
+14:30:25  11 of 12 OK created sql table model marts.orders ............................... [SUCCESS 1 in 2.12s]
+14:30:26  12 of 12 OK created sql table model marts.customers ............................ [SUCCESS 1 in 1.69s]
+14:30:26  
+14:30:26  Finished running 9 view models, 3 table models in 0 hours 0 minutes and 13.90 seconds (13.90s).
+14:30:27  
+14:30:27  Completed successfully
+14:30:27
+14:30:27  Done. PASS=12 WARN=0 ERROR=0 SKIP=0 TOTAL=12
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+14:58:29  Running with dbt=1.8.0
+14:58:30  Registered adapter: snowflake=1.8.0
+14:58:31  Found 14 models, 5 data tests, 8 sources, 444 macros
+14:58:31
+14:58:33  Concurrency: 2 threads (target='dev')
+14:58:33
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+15:06:26  Running with dbt=1.8.0
+15:06:27  Registered adapter: snowflake=1.8.0
+15:06:28  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:06:28  
+15:06:30  Concurrency: 2 threads (target='dev')
+15:06:30  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run
+15:07:07  Running with dbt=1.8.0
+15:07:08  Registered adapter: snowflake=1.8.0
+15:07:09  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:07:09  
+15:07:13  Concurrency: 2 threads (target='dev')
+15:07:13  
+15:07:13  1 of 14 START sql table model public.my_first_dbt_model ........................ [RUN]
+15:07:13  2 of 14 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+15:07:15  2 of 14 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.61s]
+15:07:15  3 of 14 START sql view model staging.stg_tech_store__cities .................... [RUN]
+15:07:15  1 of 14 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.20s]
+15:07:15  4 of 14 START sql view model staging.stg_tech_store__customers ................. [RUN]
+15:07:16  3 of 14 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.89s]
+15:07:16  5 of 14 START sql view model staging.stg_tech_store__employees ................. [RUN]
+15:07:17  4 of 14 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.20s]
+15:07:17  6 of 14 START sql view model staging.stg_tech_store__orders .................... [RUN]
+15:07:17  5 of 14 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.13s]
+15:07:17  7 of 14 START sql view model staging.stg_tech_store__products .................. [RUN]
+15:07:18  6 of 14 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.11s]
+15:07:18  8 of 14 START sql view model staging.stg_tech_store__states .................... [RUN]
+15:07:18  7 of 14 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.07s]
+15:07:18  9 of 14 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+15:07:19  8 of 14 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.25s]
+15:07:19  10 of 14 START sql view model public.my_second_dbt_model ....................... [RUN]
+15:07:19  9 of 14 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.14s]
+15:07:19  11 of 14 START sql table model marts.orders .................................... [RUN]
+15:07:20  10 of 14 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.26s]
+15:07:20  12 of 14 START sql view model public.int_customers_and_locations_joined ........ [RUN]
+15:07:21  12 of 14 OK created sql view model public.int_customers_and_locations_joined ... [SUCCESS 1 in 1.06s]
+15:07:21  13 of 14 START sql table model marts.customers ................................. [RUN]
+15:07:21  11 of 14 OK created sql table model marts.orders ............................... [SUCCESS 1 in 2.25s]
+15:07:21  14 of 14 START sql view model public.int_order_amounts_agg_by_customer ......... [RUN]
+15:07:23  14 of 14 OK created sql view model public.int_order_amounts_agg_by_customer .... [SUCCESS 1 in 1.39s]
+15:07:23  13 of 14 ERROR creating sql table model marts.customers ........................ [ERROR in 2.00s]
+15:07:23  
+15:07:23  Finished running 11 view models, 3 table models in 0 hours 0 minutes and 14.36 seconds (14.36s).
+15:07:24  
+15:07:24  Completed with 1 error and 0 warnings:
+15:07:24
+15:07:24    Database Error in model customers (models\marts\customers.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CUSTOMERS_AND_LOCATIONS_JOINED' does not exist or not authorized.
+  compiled Code at target\run\dbt_demo\models\marts\customers.sql
+15:07:24
+15:07:24  Done. PASS=13 WARN=0 ERROR=1 SKIP=0 TOTAL=14
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt compile
+15:19:23  Running with dbt=1.8.0
+15:19:24  Registered adapter: snowflake=1.8.0
+15:19:24  Unable to do partial parsing because a project config has changed
+15:19:26  [WARNING]: Did not find matching node for patch with name 'stg_payment_app_transactions' in the 'models' section of file 'models\staging\payment_app\stage_payment_app__model.yml'
+15:19:26  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:19:26  
+15:19:29  Concurrency: 2 threads (target='dev')
+15:19:29  
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run     
+15:19:43  Running with dbt=1.8.0
+15:19:43  Registered adapter: snowflake=1.8.0
+15:19:44  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:19:44  
+15:19:48  Concurrency: 2 threads (target='dev')
+15:19:48  
+15:19:48  1 of 12 START sql table model public.my_first_dbt_model ........................ [RUN]
+15:19:48  2 of 12 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+15:19:50  2 of 12 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.37s]
+15:19:50  3 of 12 START sql view model staging.stg_tech_store__cities .................... [RUN]
+15:19:50  1 of 12 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.01s]
+15:19:50  4 of 12 START sql view model staging.stg_tech_store__customers ................. [RUN]
+15:19:51  3 of 12 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.89s]
+15:19:51  5 of 12 START sql view model staging.stg_tech_store__employees ................. [RUN]
+15:19:51  4 of 12 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 0.96s]
+15:19:51  6 of 12 START sql view model staging.stg_tech_store__orders .................... [RUN]
+15:19:52  5 of 12 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.19s]
+15:19:52  7 of 12 START sql view model staging.stg_tech_store__products .................. [RUN]
+15:19:53  6 of 12 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.15s]
+15:19:53  8 of 12 START sql view model staging.stg_tech_store__states .................... [RUN]
+15:19:53  7 of 12 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 0.94s]
+15:19:53  9 of 12 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+15:19:54  8 of 12 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.14s]
+15:19:54  10 of 12 START sql view model public.my_second_dbt_model ....................... [RUN]
+15:19:54  9 of 12 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.07s]
+15:19:54  11 of 12 START sql table model marts.orders .................................... [RUN]
+15:19:55  10 of 12 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.20s]
+15:19:55  12 of 12 START sql table model marts.customers ................................. [RUN]
+15:19:56  12 of 12 ERROR creating sql table model marts.customers ........................ [ERROR in 1.16s]
+15:19:56  11 of 12 OK created sql table model marts.orders ............................... [SUCCESS 1 in 2.21s]
+15:19:56  
+15:19:56  Finished running 9 view models, 3 table models in 0 hours 0 minutes and 12.06 seconds (12.06s).
+15:19:56  
+15:19:56  Completed with 1 error and 0 warnings:
+15:19:56
+15:19:56    Database Error in model customers (models\marts\customers.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CUSTOMERS_AND_LOCATIONS_JOINED' does not exist or not authorized.
+  compiled Code at target\run\dbt_demo\models\marts\customers.sql
+15:19:56
+15:19:56  Done. PASS=11 WARN=0 ERROR=1 SKIP=0 TOTAL=12
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt docs generate 
+15:20:15  Running with dbt=1.8.0
+15:20:16  Registered adapter: snowflake=1.8.0
+15:20:17  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:20:17  
+15:20:19  Concurrency: 2 threads (target='dev')
+15:20:19  
+15:20:19  Building catalog
+15:20:24  Catalog written to C:\Users\RRanjan\dbt_demo\target\catalog.json
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt docs serve    
+15:20:41  Running with dbt=1.8.0
+Serving docs at 8080
+To access from your browser, navigate to: http://localhost:8080
+
+
+
+Press Ctrl+C to exit.
+127.0.0.1 - - [20/May/2024 16:20:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 16:20:44] "GET /manifest.json?cb=1716218444355 HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 16:20:44] "GET /catalog.json?cb=1716218444355 HTTP/1.1" 200 -
+15:27:06  Encountered an error:
+
+15:27:06  Traceback (most recent call last):
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\cli\main.py", line 302, in docs_serve
+    results = task.run()
+  File "C:\Users\RRanjan\dbt_demo\.venv\lib\site-packages\dbt\task\docs\serve.py", line 28, in run
+    httpd.serve_forever()
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 324, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\RRanjan\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 315, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+
+C:\Users\RRanjan\dbt_demo>poetry run dbt run              
+15:27:19  Running with dbt=1.8.0
+15:27:20  Registered adapter: snowflake=1.8.0
+15:27:21  Found 14 models, 5 data tests, 8 sources, 444 macros
+15:27:21  
+15:27:26  Concurrency: 2 threads (target='dev')
+15:27:26  
+15:27:26  1 of 12 START sql table model public.my_first_dbt_model ........................ [RUN]
+15:27:26  2 of 12 START sql view model staging.stg_payment_app__transactions ............. [RUN]
+15:27:27  2 of 12 OK created sql view model staging.stg_payment_app__transactions ........ [SUCCESS 1 in 1.41s]
+15:27:27  3 of 12 START sql view model staging.stg_tech_store__cities .................... [RUN]
+15:27:28  1 of 12 OK created sql table model public.my_first_dbt_model ................... [SUCCESS 1 in 2.03s]
+15:27:28  4 of 12 START sql view model staging.stg_tech_store__customers ................. [RUN]
+15:27:28  3 of 12 OK created sql view model staging.stg_tech_store__cities ............... [SUCCESS 1 in 0.85s]
+15:27:28  5 of 12 START sql view model staging.stg_tech_store__employees ................. [RUN]
+15:27:29  4 of 12 OK created sql view model staging.stg_tech_store__customers ............ [SUCCESS 1 in 1.15s]
+15:27:29  6 of 12 START sql view model staging.stg_tech_store__orders .................... [RUN]
+15:27:29  5 of 12 OK created sql view model staging.stg_tech_store__employees ............ [SUCCESS 1 in 1.09s]
+15:27:29  7 of 12 START sql view model staging.stg_tech_store__products .................. [RUN]
+15:27:30  6 of 12 OK created sql view model staging.stg_tech_store__orders ............... [SUCCESS 1 in 1.08s]
+15:27:30  8 of 12 START sql view model staging.stg_tech_store__states .................... [RUN]
+15:27:30  7 of 12 OK created sql view model staging.stg_tech_store__products ............. [SUCCESS 1 in 1.09s]
+15:27:30  9 of 12 START sql view model staging.stg_tech_store__zip_codes ................. [RUN]
+15:27:31  8 of 12 OK created sql view model staging.stg_tech_store__states ............... [SUCCESS 1 in 1.17s]
+15:27:31  10 of 12 START sql view model public.my_second_dbt_model ....................... [RUN]
+15:27:31  9 of 12 OK created sql view model staging.stg_tech_store__zip_codes ............ [SUCCESS 1 in 1.17s]
+15:27:31  11 of 12 START sql table model marts.orders .................................... [RUN]
+15:27:32  10 of 12 OK created sql view model public.my_second_dbt_model .................. [SUCCESS 1 in 1.09s]
+15:27:32  12 of 12 START sql table model marts.customers ................................. [RUN]
+15:27:33  11 of 12 OK created sql table model marts.orders ............................... [SUCCESS 1 in 1.78s]
+15:27:33  12 of 12 ERROR creating sql table model marts.customers ........................ [ERROR in 1.08s]
+15:27:33  
+15:27:33  Finished running 9 view models, 3 table models in 0 hours 0 minutes and 12.08 seconds (12.08s).
+15:27:33  
+15:27:33  Completed with 1 error and 0 warnings:
+15:27:33
+15:27:33    Database Error in model customers (models\marts\customers.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'CUSTOMERS_AND_LOCATIONS_JOINED' does not exist or not authorized.
+  compiled Code at target\run\dbt_demo\models\marts\customers.sql
+15:27:33
+15:27:33  Done. PASS=11 WARN=0 ERROR=1 SKIP=0 TOTAL=12
+
+C:\Users\RRanjan\dbt_demo>  
+

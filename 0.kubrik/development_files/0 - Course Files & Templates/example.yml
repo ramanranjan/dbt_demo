@@ -1,0 +1,30 @@
+# YAML/YML (Yet another mark up language)
+# 1. Keys & values
+# 2. Spacing
+# 3. Easy to read
+# 4. Use to manage all configurations in DBT!!
+
+name: Mike # don't have to specify strings with quotes
+year: 2022 # automatically recognises ints
+# allows comments
+about_1: I love talking about data. This training is incredible.
+# allow multi-line strings:
+about_2: > # white space
+  I love talking about data.
+  This training is incredible.
+about_3: | # new line
+  I love talking about data.
+  This training is incredible.
+# provide lists
+hobbies:
+  - data engineering
+  - basketball
+  - traveling
+states_lived: [PA, NY, IL]
+# provide dictionaries
+my_dev_team:
+  manager: Joe
+  developer: Sarah
+  tester: Steve
+
+# The End!
