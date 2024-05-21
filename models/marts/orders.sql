@@ -41,7 +41,9 @@ final as (
         transactions.amount_in_usd,
         transactions.tax_in_usd,
         transactions.total_charged_in_usd,
-        orders.created_at
+        orders.created_at,
+         {{ utc_to_est('orders.created_at') }} as created_at_est,
+         {{ usd_to_gbp('transactions.amount_in_usd') }} as amount_in_gbp,
 
     from orders
 
