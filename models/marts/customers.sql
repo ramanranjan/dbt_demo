@@ -6,33 +6,11 @@ customers as (
 
 ),
 
+customers_and_locations_joined as (
 
-customer_and_location_joined as 
-(
-
-    select * from {{ref('int_customers_and_locations_joined')}}
-),
-
-/*
-cities as (
-
-    select * from {{ ref('stg_tech_store__cities') }}
+    select * from {{ ref('int_customers_and_locations_joined') }}
 
 ),
-
-states as (
-
-    select * from {{ ref('stg_tech_store__states') }}
-
-),
-
-zip_codes as (
-
-    select * from {{ ref('stg_tech_store__zip_codes') }}
-
-),
-
-*/
 
 employees as (
 
@@ -40,11 +18,15 @@ employees as (
 
 ),
 
+order_amounts_by_customer as (
 
+    select * from {{ ref('int_order_amounts_agg_by_customer') }}
+
+),
 
 final as (
 
-  select
+    select
         customers.customer_id,
         customers.customer_name,
         customers_and_locations_joined.city_name,
@@ -69,6 +51,7 @@ final as (
 
     left join order_amounts_by_customer
         on customers.customer_id = order_amounts_by_customer.customer_id
+
 )
 
 select * from final
