@@ -1,0 +1,6 @@
+About the Snowflake Set Up Script:
+------------------------------
+The attached SQL files were designed for a Snowflake cloud database (snowflake.com) to align with Kubrick DBT Enablement.
+
+Best!
+- Kubrick Team

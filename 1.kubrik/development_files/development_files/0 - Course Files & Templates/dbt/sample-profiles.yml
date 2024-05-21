@@ -1,0 +1,23 @@
+dbt_training: # name of your project
+  outputs:
+    dev:
+      account: [your-account_url]
+      database: [your-db]
+      password: [your-password]
+      role: [your-role]
+      schema: [your-schema]
+      threads: 4
+      type: snowflake
+      user: [your-dbt-user]
+      warehouse: [your-warehouse]
+    prod:
+      account: [your-account_url]
+      database: [your-db]
+      password: [your-password]
+      role: [your-role] # Should be dedicated for prod
+      schema: [your-schema] # dbt_prod
+      threads: 4
+      type: snowflake
+      user: [your-dbt-user] # Should be dedicated for prod
+      warehouse: [your-warehouse]  # Should be dedicated for prod
+  target: dev

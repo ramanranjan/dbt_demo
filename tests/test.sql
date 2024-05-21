@@ -1,1 +1,0 @@
-select * from {{source('tech_store','city')}}

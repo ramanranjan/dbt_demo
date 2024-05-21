@@ -1,0 +1,43 @@
+name: Deploy to Prod (Post Merge)
+
+on:
+  pull_request:
+    types:
+      - closed
+
+  workflow_dispatch:
+
+#permissions:
+#  contents: write
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    env:
+      DBT_USER: ${{ secrets.DBT_USER }}
+      DBT_PASSWORD: ${{ secrets.DBT_PASSWORD }}
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install dbt
+        run: pip3 install dbt-snowflake
+
+      - name: Deploy & Test Models (PROD)
+        run: dbt build --profiles-dir . --target prod
+
+#      - name: Generate Documentation
+#        run: dbt docs generate --profiles-dir . --target prod
+
+#      - name: Deploy Documentation
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        with:
+#          folder: target
