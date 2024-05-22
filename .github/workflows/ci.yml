@@ -29,6 +29,10 @@ jobs:
                 poetry config virtualenvs.create true
                 poetry config virtualenvs.in-project true
                 ls -a # used for logging and debugging
+            - name: Install dependencies
+              if: steps.cache.outputs.cache-hit != 'true'
+              run: |
+                poetry install --no-interaction --no-root
             - name: Create Profile Yaml
               env:
                   DBT_PROFILE_YAML: ${{ secrets.DBT_PROFILE_YAML }}
