@@ -1,5 +1,4 @@
 WITH
-
 CUSTOMERS AS (
 
     SELECT * FROM {{ ref('stg_tech_store__customers') }}
