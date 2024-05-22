@@ -1,13 +1,14 @@
-with cities as (
-    select * from {{source('tech_store','city')}}
+WITH CITIES AS (
+    SELECT * FROM {{source('tech_store','city')}}
 ),
 
-cities_renamed as (
-    select id as City_Id,
-    name as City_Name,
-    stateid as State_Id,
-    zipid as Zip_Code_Id
-    from cities
+CITIES_RENAMED AS (
+    SELECT
+        ID AS CITY_ID,
+        NAME AS CITY_NAME,
+        STATEID AS STATE_ID,
+        ZIPID AS ZIP_CODE_ID
+    FROM CITIES
 )
 
-select * from cities_renamed
+SELECT * FROM CITIES_RENAMED

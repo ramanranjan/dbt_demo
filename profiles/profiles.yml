@@ -1,0 +1,23 @@
+dbt_demo:
+  target: dev
+  outputs:
+    dev:
+      account: bsngqpt-wz31723 # replace with your account identifier
+      user: dbt_user
+      database: DBT_DEV
+      password: Arch2024Enablement!
+      role: dbt_dev_role
+      schema: public
+      threads: 200
+      type: snowflake
+      warehouse: dbt_dev_wh
+    prod:
+      account: bsngqpt-wz31723 # replace with your account identifier
+      user: dbt_user
+      database: DBT_PROD
+      password: Arch2024Enablement!
+      role: dbt_prod_role
+      schema: public
+      threads: 200
+      type: snowflake
+      warehouse: dbt_prod_wh
