@@ -1,0 +1,24 @@
+name: 'dbt_training'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_training'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_training:
+    staging: # directory path, applies configs to all models in the parent folder
+      +materialized: view
+    marts: # directory path, applies configs to all models in the parent folder
+      +materialized: table

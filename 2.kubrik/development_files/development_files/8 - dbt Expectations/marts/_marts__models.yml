@@ -1,0 +1,49 @@
+version: 2
+
+# https://hub.getdbt.com/calogica/dbt_expectations/latest/
+# Use a test from here 
+
+models:
+  - name: customers
+    columns:
+      - name: total_revenue_in_usd
+        tests: 
+          - not_negative
+
+  - name: orders
+    columns:
+        tests:
+          - dbt_expectations.expect_table_columns_to_match_set:
+              column_list: ["order_id",
+              "transaction_id",
+              "customer_id",
+              "customer_name",
+              "product_name",
+              "category",
+              "price",
+              "currency",
+              "quantity",
+              "is_sale_order",
+              "cost_per_unit_in_usd",
+              "amount_in_usd",
+              "tax_in_usd",
+              "total_charged_in_usd",
+              "created_at",
+              "created_at_est"]
+              # transform: upper # (Optional)
+
+          # - dbt_expectations....
+          # Add another test here to check that the number of rows in this model is the same as the transactions table
+
+      - name: price
+        tests: 
+          - not_negative
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0  # (Optional)
+              max_value: 200 # (Optional)
+              # row_condition: "id is not null" # (Optional)
+              strictly: false # (Optional. Default is 'false'. Adds an 'or equal to' to the comparison operator for min/max)
+
+      - name: tax_in_usd
+        tests: 
+          - not_negative
